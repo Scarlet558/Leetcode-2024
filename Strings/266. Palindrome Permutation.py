@@ -15,6 +15,24 @@ Example 3:
 Input: s = "carerac"
 Output: true
 """
+"""
+
+Problem Approach:
+
+Key Insight: For a string to form a palindrome, it can have at most one character with an odd frequency count
+
+Even length palindrome: all characters must appear even times
+Odd length palindrome: exactly one character can appear odd times (middle character)
+
+
+Solution Steps:
+
+Count frequency of each character using Counter
+Count how many characters appear odd number of times
+Return true if odd count ≤ 1, false otherwise
+
+"""
+
 import collections
 
 
