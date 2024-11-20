@@ -52,3 +52,18 @@ class Solution(object):
 str =""
 s = Solution()
 print(s.isPalindrome(str))
+
+"""
+def is_palindrome(s):
+    i = 0
+    j = len(s) - 1
+
+    while i < j:
+        if s[i] == s[j]:
+            i += 1
+            j -= 1
+        else:
+            return False
+    return True
+
+"""
